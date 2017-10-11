@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test exercise Jotted for Align Elements</title>
+        <link rel="stylesheet" href="../jotted/jotted.min.css">
+        <script src="../jotted/jotted.min.js"></script>
+    </head>
+
+    <body>
+        <div id="editor"></div>
+        <script>
+          new Jotted(document.querySelector('#editor'), {
+            files: [{
+              type: 'html',
+              url: 'exercise.html'
+            }]
+          })
+        </script>
+    </body>
+</html>
